@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['handgun', 'knife', 'pistol', 'rifle', 'shotgun']
+
+roboflow:
+  workspace: kurhadeshruti1-gmail-com
+  project: weapon-detection-lin4o-i8nyk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kurhadeshruti1-gmail-com/weapon-detection-lin4o-i8nyk/dataset/1
